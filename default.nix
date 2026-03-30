@@ -9,8 +9,8 @@ stdenv.mkDerivation (finalAttrs: {
   src = fetchFromGitHub {
     owner = "bndlfm";
     repo = "volantes-hyprcursor";
-    rev = "504e3325e2e858b58b435731ec68a500776f06f0";
-    sha256 = "sha256-yupOlKvDlJ8zuiPmDpwB9Wyf/hYUHIRNidU6B3QQZn8=";
+    rev = "48a25c698da5eeaeac029651f6cbff5f93a52aba";
+    sha256 = "sha256-ri+aMbFx9rUf6tMr+D8XKbUE3YcTQ3jaQMMRvnU9U58=";
   };
 
   installPhase = ''
