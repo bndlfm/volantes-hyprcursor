@@ -17,10 +17,10 @@ stdenv.mkDerivation (finalAttrs: {
     runHook preInstall
 
     mkdir -p $out/share/icons/volantes-light-hyprcursor
-    cp -R ./light/. $out/share/icons/volantes-light-hyprcursor/
+    cp -R $src/light/. $out/share/icons/volantes-light-hyprcursor/
 
     mkdir -p $out/share/icons/volantes-dark-hyprcursor
-    cp -R ./dark/. $out/share/icons/volantes-dark-hyprcursor/
+    cp -R $src/dark/. $out/share/icons/volantes-dark-hyprcursor/
 
     runHook postInstall
   '';
